@@ -16,14 +16,11 @@ body {
 div {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
-  position: absolute;
+  position: relative;
   width: 350px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
-  left: 40%;
-  top: 10%;
-  
+  margin: 100px 0;
 }
 
 img {
@@ -54,10 +51,7 @@ img {
 
 .attribution { 
   font-size: 11px;  
-  flex-direction: row;
-  position: absolute;
-  top: 87%;
-  justify-content: space-around;
+  text-align: center;
 }
 
 .attribution a { 
@@ -69,12 +63,5 @@ img {
   
   div {
     height: 600px;
-    left: 5%;
-    
-  }
-
-  .attribution {
-    height: 0;
-    top: 90%;
   }
 }
